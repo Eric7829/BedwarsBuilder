@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import os
-#run with python src/itb_without_CIEDE200.py
+#run with python main.py
 # Block color palette with indexes
 BLOCKS = {
     1: ("stone_brick", "#66686d"),
