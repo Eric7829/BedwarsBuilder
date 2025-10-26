@@ -30,6 +30,7 @@ python src/main.py
 
 - Configure options (edge outlining, blur level) at the top of `main.py`.
 - The output Lua table will be saved as `src/output.lua`.
+- Sync this project to Bedwars (Create a custom, preferabbly void (squads) and open the scripts tab)
 
 ## Notes
 - Only PNG and JPG/JPEG images are supported.
