@@ -85,7 +85,7 @@ print("Destroyed block under player")
 -- Z direction = depth (height of image)
 -- Y stays constant (no verticality)
 
-local BLOCK_SPACING = 2.5
+local BLOCK_SPACING = 3
 local height = #imageData  -- Number of rows
 local width = #imageData[1]  -- Number of columns
 
