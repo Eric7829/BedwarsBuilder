@@ -125,15 +125,15 @@ for z = 1, height do
 
     -- Progress update every 50 rows
     if z % 50 == 0 then
-        print("Progress: " .. z .. "/" .. height .. " rows completed")
+        MessageService.broadcast("Progress: " .. z .. "/" .. height .. " rows completed")
     end
 
     -- Small delay to prevent overwhelming the server
     task.wait(0.01)
 end
 
-print("Pixel art construction complete!")
-print("Blocks placed: " .. blocksPlaced)
-print("Blocks failed: " .. blocksFailed)
-print("Total dimensions: " .. width .. " blocks wide x " .. height .. " blocks deep")
-print("Physical size: " .. (width * BLOCK_SPACING) .. " units x " .. (height * BLOCK_SPACING) .. " units")
+MessageService.broadcast("Pixel art construction complete!")
+MessageService.broadcast("Blocks placed: " .. blocksPlaced)
+MessageService.broadcast("Blocks failed: " .. blocksFailed)
+MessageService.broadcast("Total dimensions: " .. width .. " blocks wide x " .. height .. " blocks deep")
+MessageService.broadcast("Physical size: " .. (width * BLOCK_SPACING) .. " units x " .. (height * BLOCK_SPACING) .. " units")
